@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance AI Assistant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="AI-powered insurance policy analysis tool">
+    <meta name="author" content="Your Team Name">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>🏥 Insurance AI Assistant</h1>
+            <p>Intelligent analysis of insurance policy documents using advanced AI</p>
+        </header>
+
+        <!-- System Status -->
+        <div id="status" class="status-indicator">
+            <div class="status-dot"></div>
+            <span class="status-text">Checking system status...</span>
+        </div>
+
+        <!-- Main Form -->
+        <form id="analysisForm" class="form-section">
+            <!-- Document URL Input -->
+            <div class="form-group">
+                <label for="documentUrl">📄 Insurance Policy Document URL</label>
+                <input 
+                    type="url" 
+                    id="documentUrl" 
+                    class="form-control" 
+                    placeholder="https://example.com/policy.pdf"
+                    required
+                    autocomplete="url"
+                >
+            </div>
+
+            <!-- Questions Input -->
+            <div class="form-group">
+                <label for="questions">❓ Insurance Questions (one per line)</label>
+                <textarea 
+                    id="questions" 
+                    class="form-control" 
+                    placeholder="What is the grace period for premium payment?
+What is the waiting period for pre-existing diseases?
+Does this policy cover maternity expenses?"
+                    required
+                ></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" id="submitBtn" class="btn">
+                🔍 Analyze Policy
+            </button>
+        </form>
+
+        <!-- Loading Indicator -->
+        <div id="loading">
+            <div class="spinner"></div>
+            <span>Processing policy document and generating intelligent answers...</span>
+        </div>
+
+        <!-- Results Section -->
+        <div id="results"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
