@@ -36,7 +36,7 @@ python-dotenv
 requests
 click
 tqdm
-pyyaml
+pyyaml>=6.0
 
 # Development & Testing (optional)
 pytest
