@@ -1,10 +1,5 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
-# create a detailed readme in markdown
-
-Based on your championship-level hackathon insurance AI assistant project, here's a comprehensive README in markdown:
-
-# 🏥 Insurance AI Assistant
+# 🏥 FinDoc 3.0
 
 > **Championship-level AI-powered insurance policy analysis system achieving 100% accuracy on standard questions and 85-90% on complex edge cases.**
 
@@ -113,8 +108,8 @@ insurance-ai-assistant/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/insurance-ai-assistant.git
-cd insurance-ai-assistant
+git clone https://github.com/Uno-bajaj-hackathon/FinDoc3.0-Team-Uno.git
+cd FinDoc3.0-Team-Uno
 ```
 
 2. **Create virtual environment**
@@ -330,10 +325,10 @@ This system demonstrates:
 
 ## 📞 **Contact**
 
-- **Team**: [Your Team Name]
-- **Email**: [your-email@example.com]
-- **Demo**: [https://your-deployed-app.com](https://your-deployed-app.com)
-- **GitHub**: [https://github.com/your-username/insurance-ai-assistant](https://github.com/your-username/insurance-ai-assistant)
+- **Team**: [Team Uno]
+- [**Email**](parthyangandul@gmail.com)
+- [**Demo**](https://your-deployed-app.com)
+- [**GitHub**](https://github.com/your-username/insurance-ai-assistant)
 
 **Ready to revolutionize insurance policy analysis with AI! 🎯**
 
