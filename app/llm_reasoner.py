@@ -15,7 +15,7 @@ from .ingestion import Clause
 class GPT4oMiniReasoner:
     def __init__(self):
         self.client = openai.OpenAI(
-            api_key=settings.openai_key, 
+            api_key=settings.openai_api_key, 
             base_url=settings.openai_base_url
         )
         self.model = "openai/gpt-4o-mini"

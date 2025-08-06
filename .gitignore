@@ -2,4 +2,4 @@
 datasets/
 .env
 venv/
-app\__pycache__
+app/__pycache__
