@@ -29,20 +29,8 @@
       "dest": "/api/index.py"
     }
   ],
-  "functions": {
-    "api/index.py": {
-      "runtime": "python3.12",
-      "memory": 1024,
-      "maxDuration": 30
-    }
-  },
   "env": {
     "PYTHON_VERSION": "3.12"
-  },
-  "build": {
-    "env": {
-      "PYTHON_VERSION": "3.12"
-    }
   },
   "headers": [
     {
