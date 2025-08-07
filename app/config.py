@@ -7,5 +7,6 @@ class Settings(BaseSettings):
     bearer: str = Field(..., env="TEAM_BEARER")
     qdrant_url: str = Field(..., env="QDRANT_URL")
     qdrant_api_key: str = Field(None, env="QDRANT_API_KEY")
+    huggingface_token: str = Field(None, env="HF_TOKEN")
 
 settings = Settings(_env_file=".env", _env_file_encoding="utf-8")
