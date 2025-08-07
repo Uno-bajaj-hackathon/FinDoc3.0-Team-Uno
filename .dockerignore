@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pkl
+*.ipynb
+.env
+venv/
+datasets/policies/  # Optional if large local data
